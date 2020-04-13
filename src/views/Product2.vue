@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>Super product</h1>
+    <h1>Super product 2</h1>
     <p>
-      Super product description
+      Super product description 222
     </p>
     <p>
       <span id="product-price">{{ price }} MDL</span>
@@ -15,13 +15,13 @@
 import OrderProduct from "@/components/OrderProduct";
 
 export default {
-  name: "Product",
+  name: "Product2",
   components: {
     OrderProduct
   },
   data() {
     return {
-      price: 20
+      price: 30
     };
   }
 };

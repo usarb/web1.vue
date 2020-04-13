@@ -13,6 +13,15 @@ export default {
   name: "Home",
   components: {
     HelloWorld
+  },
+  beforeCreate(){
+    console.log("before create");
+  },
+  created(){
+    console.log("created");
+  },
+  beforeMount(){
+    console.log("before mount");
   }
 };
 </script>
